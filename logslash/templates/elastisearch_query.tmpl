@@ -1,0 +1,13 @@
+{
+  "query": {
+    "term" : { "@tags": "<tag>" }
+  },
+  "size": 200,
+  "sort": [
+    {
+      "@timestamp": {
+        "order": "desc"
+      }
+    }
+  ]
+}
